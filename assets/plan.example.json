@@ -1,0 +1,116 @@
+{
+  "shots": [
+    {
+      "id": "shot03",
+      "purpose": "Descend with whale and reveal city scale",
+      "primary_camera_move": "steady downward tracking beside whale",
+      "conditioning": "video_extension",
+      "usable_seconds": 6,
+      "generation_seconds": 8,
+      "entry": {
+        "location": "ocean-floor-city approach",
+        "camera_heading": "along descending route; city ahead",
+        "camera_height": "beside whale flank",
+        "framing": "wide tracking view",
+        "lens_feel": "constant moderate wide",
+        "motion_direction": "forward and downward",
+        "speed_class": "slow steady",
+        "subject_phase": "whale mid-downstroke",
+        "visible_asset_states": {
+          "whale-v1": "submerged; unchanged pigment map; heading down",
+          "city-v1": "ahead below; towers fixed"
+        },
+        "lighting": "deep blue-green; stable caustics"
+      },
+      "exit": {
+        "location": "ocean-floor-city approach",
+        "camera_heading": "along descending route; city ahead",
+        "camera_height": "beside whale flank",
+        "framing": "wide tracking view",
+        "lens_feel": "constant moderate wide",
+        "motion_direction": "forward and downward",
+        "speed_class": "slow steady",
+        "subject_phase": "whale mid-downstroke",
+        "visible_asset_states": {
+          "whale-v1": "submerged; unchanged pigment map; heading down",
+          "city-v1": "ahead below; towers fixed"
+        },
+        "lighting": "deep blue-green; stable caustics"
+      },
+      "join_after": "continuous",
+      "reference_roles": {
+        "identity": "whale-v1",
+        "location": "city-v1",
+        "motion": "clip02-selected-tail"
+      },
+      "allowed_changes": [
+        "ambient light cools gradually with depth"
+      ],
+      "forbidden_changes": [
+        "whale pigment repaint",
+        "city scale jump"
+      ],
+      "qa": {
+        "reviewer": "continuity coordinator",
+        "seam_status": "not reviewed",
+        "evidence": []
+      }
+    },
+    {
+      "id": "shot04",
+      "purpose": "Complete this example segment",
+      "primary_camera_move": "steady downward tracking beside whale",
+      "conditioning": "video_extension",
+      "usable_seconds": 6,
+      "generation_seconds": 8,
+      "entry": {
+        "location": "ocean-floor-city approach",
+        "camera_heading": "along descending route; city ahead",
+        "camera_height": "beside whale flank",
+        "framing": "wide tracking view",
+        "lens_feel": "constant moderate wide",
+        "motion_direction": "forward and downward",
+        "speed_class": "slow steady",
+        "subject_phase": "whale mid-downstroke",
+        "visible_asset_states": {
+          "whale-v1": "submerged; unchanged pigment map; heading down",
+          "city-v1": "ahead below; towers fixed"
+        },
+        "lighting": "deep blue-green; stable caustics"
+      },
+      "exit": {
+        "location": "ocean-floor-city approach",
+        "camera_heading": "along descending route; city ahead",
+        "camera_height": "beside whale flank",
+        "framing": "wide tracking view",
+        "lens_feel": "constant moderate wide",
+        "motion_direction": "forward and downward",
+        "speed_class": "slow steady",
+        "subject_phase": "whale mid-downstroke",
+        "visible_asset_states": {
+          "whale-v1": "submerged; unchanged pigment map; heading down",
+          "city-v1": "ahead below; towers fixed"
+        },
+        "lighting": "deep blue-green; stable caustics"
+      },
+      "join_after": "end",
+      "reference_roles": {
+        "identity": "whale-v1",
+        "location": "city-v1",
+        "motion": "clip02-selected-tail"
+      },
+      "allowed_changes": [
+        "ambient light cools gradually with depth"
+      ],
+      "forbidden_changes": [
+        "whale pigment repaint",
+        "city scale jump"
+      ],
+      "qa": {
+        "reviewer": "continuity coordinator",
+        "seam_status": "not reviewed",
+        "evidence": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shot03-v1",
+  "shot": "shot03",
+  "endpoint": "minimax/h3-max/extend-video",
+  "input": {
+    "video_url": "REPLACE_WITH_AUTHORIZED_HOSTED_CLIP_URL",
+    "prompt": "Continue the existing steady descent beside the whale. Preserve the fixed pigment patches; the city towers rise through parallax. Maintain motion through the final frames.",
+    "duration": 8,
+    "output": "continuation",
+    "resolution": "768P",
+    "enable_safety_checker": true
+  },
+  "parents": [
+    "shot03-plan-v1",
+    "whale-v1",
+    "city-v1",
+    "clip02-selected-tail"
+  ],
+  "authorization_source": "Replace with actual user message reference",
+  "capability_source": "https://fal.ai/models/minimax/h3-max/extend-video/api checked 2026-10-10; recheck before use",
+  "reference_roles": {
+    "motion": "clip02-selected-tail",
+    "identity": "whale-v1",
+    "location": "city-v1"
+  },
+  "output_semantics": "continuation includes documented source overlap; verify returned frames before assembly",
+  "capability_checked_at": "2026-10-10"
+}

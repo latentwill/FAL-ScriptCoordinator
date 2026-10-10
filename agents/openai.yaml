@@ -1,0 +1,4 @@
+interface:
+  display_name: "FAL-ScriptCoordinator"
+  short_description: "Plan, resume, and review continuous AI films"
+  default_prompt: "Use $fal-scriptcoordinator to plan or continue this film with consistent characters, camera motion, and durable production records."

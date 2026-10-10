@@ -1,0 +1,17 @@
+{
+  "title": "Example continuous underwater film",
+  "target_duration_seconds": 120,
+  "delivery_fps": "24",
+  "aspect_ratio": "16:9",
+  "show_before_regeneration": true,
+  "audio_policy": "Silent visuals; custom score only after user authorizes attachment",
+  "pace": "Dreamy first half; faster tense action; relaxed final resolution",
+  "authorization_source": "Replace with actual user instruction before generation",
+  "constraints": [
+    "whale always submerged",
+    "one shrimp taxi driver",
+    "one crab throw then pass to seated mermaids",
+    "one final pullback then stop"
+  ],
+  "review_policy": "Present each generated video before creative regeneration; preserve accepted versions"
+}
